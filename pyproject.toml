@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "Python-CICD-Demo"
+version = "0.1.0"
+description = "Demo template for Python CICD"
+authors = ["Matthew Redrup"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^4.1.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+flake8 = "^6.1.0"
+bandit = "^1.7.6"
+safety = "^2.3.5"
+requests-mock = "^1.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
