@@ -6,10 +6,6 @@
 Welcome to Python CI/CD Demo's documentation!
 =============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 .. automodule:: python_cicd_demo
    :members:
 
